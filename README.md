@@ -13,7 +13,7 @@ responsible for selecting actions based on different states.
 <br/>
 
 Every RL project should have well-defined state, action and reward spaces. For this project the state, action and reward spaces are described below:  
-- **State-space:** State-space is an array representation of the Reacher environment consisting of 37 floating-point values.  
+- **State-space:** State-space is an array representation of the Reacher environment consisting of 33 floating-point values.  
 - **Action-space:** Each action is a vector with four numbers, corresponding to torque applicable to two joints. Every entry in the action vector is a floating-point number in the range [-1, 1].    
 - **Agent's goal:** The agent's goal is to maximize the reward by staying in the target position as long as possible. The target position might move or stay still. In this project, the environment is considered solved, when the agent is capable of collecting 32 rewards on average for the last 100 episodes.
 <br/>

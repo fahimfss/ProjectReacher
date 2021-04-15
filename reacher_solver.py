@@ -14,7 +14,7 @@ CUR_DIR = os.path.dirname(os.path.realpath(__file__))
 
 # RUN_NAME represents a specific run. Checkpoint files and Tensorboard logs are saved using the RUN_NAME.
 # Helpful for comparing different runs.
-RUN_NAME = "Test3"
+RUN_NAME = "Test"
 
 ENV_PATH = "Reacher20_Linux/Reacher.x86_64"   # path to the reacher20 env
 SCORE_LIMIT = 32                              # mean score of 100 episodes to reach

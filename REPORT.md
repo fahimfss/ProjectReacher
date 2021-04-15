@@ -22,7 +22,7 @@ The Actor Critic GAE code in the project is based on the codes in [higgsfield/RL
 ![A2CNetwork](https://user-images.githubusercontent.com/8725869/114942043-c3469380-9e65-11eb-839a-8192c87cb62b.png)
 - I used Adam optimizer with learning rate 1e-4 and eps 1e-3
 - I normalized the state space by dividing it with 10.0 (line 93 of agent.py file)
-- I increase the reward value given to the agents by 20 (line 94 of agent.py file). The provided reward values were to small, specially during the early episodes. But for score calculation and log, I used the actual reward values.  
+- I increased the reward values given to the agents by 20 (line 94 of agent.py file). The provided reward values were too small, especially during the early episodes. But for score calculation and log, I used the actual reward values. 
   
 After applying these optimizations, I was able to solve the Reacher environment.  
   

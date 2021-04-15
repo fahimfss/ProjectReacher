@@ -39,4 +39,4 @@ To run a trained agent, update the RUN_NAME in the **run.py** file (line 10) and
 <br/>
 
 ## Results
-Please check the [report](https://github.com/fahimfss/ProjectReacher/blob/main/REPORT.md) file for the implementation and result details.
+Please check the [report](https://github.com/fahimfss/ProjectReacher/blob/master/REPORT.md) file for the implementation and result details.

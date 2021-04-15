@@ -44,7 +44,7 @@ The following table contains the summary of the three runs:
 |Test2 (Blue)|341|28m 34s|
 |Test3 (Red)|209|17m 27s|
 
-This plot is created using tensorboard, with log files located at "[/log/tensorboard](https://github.com/fahimfss/ProjectReacher/tree/master/log/tensorboard)". All the runs successfully converged, but there is a significant performance difference between Test1 run and Test3 run. The performance difference between different runs is normal for policy gradient algos.   
+This plot is created using tensorboard, with log files located at "[/log/tensorboard](https://github.com/fahimfss/ProjectReacher/tree/master/log/tensorboard)". All the runs successfully converged, but there is a significant performance difference between Test2 run and Test3 run. The performance difference between different runs is normal for policy gradient algos.   
 
 Here's a video of a trained agent:  
 

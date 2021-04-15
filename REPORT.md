@@ -16,7 +16,7 @@ The training of the agent takes place in the [reacher_solver.py](https://github.
 **Solver ([reacher_solver.py](https://github.com/fahimfss/ProjectReacher/blob/master/reacher_solver.py)):** state_size=33, action_size=4, SCORE_LIMIT=32   
 **Agent ([agent.py](https://github.com/fahimfss/ProjectReacher/blob/master/agent.py)):** NUM_STEPS=10, LR=1e-4
 
-## Implementation details and contribution
+## Implementation Details and Contribution
 The Actor Critic GAE code in the project is based on the codes in [higgsfield/RL-Adventure-2](https://github.com/higgsfield/RL-Adventure-2/blob/master/2.gae.ipynb). I made several changes to that code in order to solve the Reacher environment. Those are stated below:
 - I changed the deep neural network architecture for predicting actor and critic values. I used a bigger network with more hidden layers. Here's a summary of the deep neural network that was used: 
 ![A2CNetwork](https://user-images.githubusercontent.com/8725869/114942043-c3469380-9e65-11eb-839a-8192c87cb62b.png)

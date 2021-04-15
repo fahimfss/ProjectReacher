@@ -46,7 +46,7 @@ The following table contains the summary of the three runs:
 
 This plot is created using tensorboard, with log files located at "[/log/tensorboard](https://github.com/fahimfss/ProjectReacher/tree/master/log/tensorboard)". All the runs successfully converged, but there is a significant performance difference between Test1 run and Test3 run. The performance difference between different runs is normal for policy gradient algos.   
 
-Here's a video of a trained agent collecting bananas in the environment:  
+Here's a video of a trained agent:  
 
 [Test3](https://user-images.githubusercontent.com/8725869/114944394-53d2a300-9e69-11eb-82f3-b9080e51c8d7.mp4)
 
